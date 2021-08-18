@@ -35,7 +35,7 @@ allow_anon_ssl=NO
 force_local_logins_ssl=YES
 force_local_data_ssl=YES
 rsa_cert_file=/etc/vsftpd/ssl/vsftpd.pem
-<<EOF
+EOF
 
 mkdir ssl
 cat /ect/v2ray/v2ray.crt /etc/v2ray/v2ray.key > vsftpd.pem
