@@ -26,8 +26,8 @@ listen=YES
 allow_writeable_chroot=YES
 pasv_enable=YES
 pasv_address=#Your IP address
-pasv_min_port=40000
-pasv_max_port=41000
+pasv_min_port=30000
+pasv_max_port=31000
 pam_service_name=vsftpd
 
 ssl_enable=YES
